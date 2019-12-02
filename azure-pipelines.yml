@@ -13,12 +13,12 @@ pool:
   name: DevPool
 
 steps:
-- task: CmdLine@2
+- task: SonarCloudPrepare@1
   inputs:
-    script: |
-      sonar-scanner \
-        -Dsonar.projectKey=Defilan_aag_infoblox \
-        -Dsonar.organization=$(sonarorg) \
-        -Dsonar.sources=. \
-        -Dsonar.host.url=https://sonarcloud.io \
-        -Dsonar.login=$(sonarlogin)
+    SonarCloud: 'SonarCloud_Test'
+    organization: 'defilan'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: '$(SonarLogin)'
+    cliSources: '.'
+- task: SonarCloudAnalyze@1
