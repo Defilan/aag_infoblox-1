@@ -6,9 +6,19 @@
 trigger:
 - master
 
+variables:
+- group: Dev
+
 pool:
   name: DevPool
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: CmdLine@2
+  inputs:
+    script: |
+      sonar-scanner \
+        -Dsonar.projectKey=Defilan_aag_infoblox \
+        -Dsonar.organization=$(sonarorg) \
+        -Dsonar.sources=. \
+        -Dsonar.host.url=https://sonarcloud.io \
+        -Dsonar.login=$(sonarlogin)
