@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/cyberpri/ADO%20Work/_apis/build/status/Defilan.aag_infoblox?branchName=master)](https://dev.azure.com/cyberpri/ADO%20Work/_build/latest?definitionId=3&branchName=master)
+[![Build Status](https://dev.azure.com/cyberpri/ADO%20Work/_apis/build/status/Defilan.aag_infoblox?branchName=master)](https://dev.azure.com/cyberpri/ADO%20Work/_build/latest?definitionId=3&branchName=master) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=d7213630e8e6e9e9c94ba0728371a02c8a77bd98&metric=alert_status)](https://sonarcloud.io/dashboard?id=d7213630e8e6e9e9c94ba0728371a02c8a77bd98)
 
 # Chef Infoblox Resource
 
