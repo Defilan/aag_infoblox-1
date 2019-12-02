@@ -1,5 +1,5 @@
 name 'aag_infoblox'
-maintainer 'Christopher Maher'
+maintainer 'Christopher P. Maher'
 maintainer_email 'chris@mahercode.io'
 license 'Apache-2.0'
 description 'Custom Resource for Infoblox'
