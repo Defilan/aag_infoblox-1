@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/cyberpri/ADO%20Work/_apis/build/status/Defilan.aag_infoblox?branchName=master)](https://dev.azure.com/cyberpri/ADO%20Work/_build/latest?definitionId=3&branchName=master)
+
 # Chef Infoblox Resource
 
 [![Build Status](https://travis-ci.org/AlaskaAirlines/aag_infoblox.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/aag_infoblox) [![Resource Version](https://img.shields.io/badge/Resource-0.1.0-blue.svg)](https://supermarket.chef.io/cookbooks/aag_infoblox) [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://choosealicense.com/licenses/apache-2.0)
